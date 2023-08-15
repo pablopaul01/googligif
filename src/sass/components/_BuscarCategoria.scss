@@ -1,0 +1,33 @@
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barraDeBusqueda {
+    border: 1px solid #c4c4c4;
+    width: 50%;
+    padding: 10px 0;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    text-align: start;
+    padding-left: 10px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.barraDeBusqueda i{
+    padding-right: 5px;
+    color: #c4c4c4;
+}
+
+.barraDeBusqueda input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.barraDeBusqueda input:focus {
+    border-color: #003bd0;
+}
